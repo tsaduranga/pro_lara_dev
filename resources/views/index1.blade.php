@@ -1,6 +1,10 @@
 
 @extends('layouts.admin')
 
+
+@section('content')
+<div>
+
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -1305,3 +1309,6 @@
     <!-- Control sidebar content goes here -->
   </aside>
   <!-- /.control-sidebar -->
+</div>
+
+  @endsection

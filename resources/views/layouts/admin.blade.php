@@ -32,7 +32,9 @@
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
-    @include('index1')
+    <div>
+        @yield('content')
+    </div>
 </div>
 <!-- ./wrapper -->
 

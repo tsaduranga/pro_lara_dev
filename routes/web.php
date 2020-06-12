@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/temp', function () {
-    return view('layouts.admin');
+    return view('index1');
 });
 
 Auth::routes();
