@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/temp', function () {
+    return view('layouts.admin');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
